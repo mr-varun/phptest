@@ -1,114 +1,1676 @@
-<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>SS -Model 5</title><style type="text/css"> * {margin:0; padding:0; text-indent:0; }
- .s1 { color: #231F20; font-family:"Arial Black", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
- h1 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
- h2 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 12pt; }
- .h4 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt; }
- .s2 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11.5pt; }
- .s3 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
- p { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; margin:0pt; }
- h3 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11.5pt; }
- .s4 { color: #231F20; font-family:"Bookman Old Style", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
- .s5 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- .s6 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11.5pt; }
- .s7 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- .s8 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 12pt; }
- .s9 { color: black; font-style: normal; font-weight: normal; text-decoration: none; }
- .s10 { color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
- .s11 { color: #231F20; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 27pt; }
- li {display: block; }
- #l1 {padding-left: 0pt;counter-reset: c1 1; }
- #l1> li:before {counter-increment: c1; content: counter(c1, decimal)". "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
- #l1> li:first-child:before {counter-increment: c1 0;  }
- li {display: block; }
- #l2 {padding-left: 0pt;counter-reset: d1 1; }
- #l2> li:before {counter-increment: d1; content: counter(d1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
- #l2> li:first-child:before {counter-increment: d1 0;  }
- #l3 {padding-left: 0pt;counter-reset: d2 1; }
- #l3> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l3> li:first-child:before {counter-increment: d2 0;  }
- #l4 {padding-left: 0pt;counter-reset: d2 1; }
- #l4> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l4> li:first-child:before {counter-increment: d2 0;  }
- #l5 {padding-left: 0pt;counter-reset: d2 1; }
- #l5> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l5> li:first-child:before {counter-increment: d2 0;  }
- #l6 {padding-left: 0pt;counter-reset: d2 1; }
- #l6> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l6> li:first-child:before {counter-increment: d2 0;  }
- #l7 {padding-left: 0pt;counter-reset: d2 1; }
- #l7> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l7> li:first-child:before {counter-increment: d2 0;  }
- #l8 {padding-left: 0pt;counter-reset: d2 1; }
- #l8> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l8> li:first-child:before {counter-increment: d2 0;  }
- #l9 {padding-left: 0pt;counter-reset: d2 1; }
- #l9> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l9> li:first-child:before {counter-increment: d2 0;  }
- #l10 {padding-left: 0pt;counter-reset: d2 1; }
- #l10> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l10> li:first-child:before {counter-increment: d2 0;  }
- #l11 {padding-left: 0pt;counter-reset: e1 3; }
- #l11> li:before {counter-increment: e1; content: counter(e1, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l11> li:first-child:before {counter-increment: e1 0;  }
- #l12 {padding-left: 0pt;counter-reset: d2 1; }
- #l12> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l12> li:first-child:before {counter-increment: d2 0;  }
- #l13 {padding-left: 0pt;counter-reset: d2 1; }
- #l13> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l13> li:first-child:before {counter-increment: d2 0;  }
- #l14 {padding-left: 0pt;counter-reset: d2 1; }
- #l14> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l14> li:first-child:before {counter-increment: d2 0;  }
- #l15 {padding-left: 0pt;counter-reset: d2 1; }
- #l15> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l15> li:first-child:before {counter-increment: d2 0;  }
- #l16 {padding-left: 0pt;counter-reset: d2 1; }
- #l16> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l16> li:first-child:before {counter-increment: d2 0;  }
- #l17 {padding-left: 0pt;counter-reset: d2 1; }
- #l17> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l17> li:first-child:before {counter-increment: d2 0;  }
- #l18 {padding-left: 0pt;counter-reset: d2 1; }
- #l18> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l18> li:first-child:before {counter-increment: d2 0;  }
- #l19 {padding-left: 0pt;counter-reset: d2 1; }
- #l19> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l19> li:first-child:before {counter-increment: d2 0;  }
- #l20 {padding-left: 0pt;counter-reset: d2 1; }
- #l20> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l20> li:first-child:before {counter-increment: d2 0;  }
- #l21 {padding-left: 0pt;counter-reset: f1 1; }
- #l21> li:before {counter-increment: f1; content: counter(f1, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l21> li:first-child:before {counter-increment: f1 0;  }
- #l22 {padding-left: 0pt;counter-reset: g1 1; }
- #l22> li:before {counter-increment: g1; content: counter(g1, lower-roman)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l22> li:first-child:before {counter-increment: g1 0;  }
- #l23 {padding-left: 0pt;counter-reset: d2 1; }
- #l23> li:before {counter-increment: d2; content: counter(d2, lower-latin)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l23> li:first-child:before {counter-increment: d2 0;  }
- #l24 {padding-left: 0pt;counter-reset: h1 1; }
- #l24> li:before {counter-increment: h1; content: counter(h1, lower-roman)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l24> li:first-child:before {counter-increment: h1 0;  }
- #l25 {padding-left: 0pt;counter-reset: i1 1; }
- #l25> li:before {counter-increment: i1; content: counter(i1, lower-roman)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l25> li:first-child:before {counter-increment: i1 0;  }
- #l26 {padding-left: 0pt;counter-reset: j1 1; }
- #l26> li:before {counter-increment: j1; content: counter(j1, lower-roman)") "; color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l26> li:first-child:before {counter-increment: j1 0;  }
- li {display: block; }
- #l27 {padding-left: 0pt;counter-reset: k1 1; }
- #l27> li:before {counter-increment: k1; content: counter(k1, upper-roman)") "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l27> li:first-child:before {counter-increment: k1 0;  }
- li {display: block; }
- #l28 {padding-left: 0pt;counter-reset: l1 2; }
- #l28> li:before {counter-increment: l1; content: counter(l1, lower-latin)") "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l28> li:first-child:before {counter-increment: l1 0;  }
- #l29 {padding-left: 0pt;counter-reset: l2 1; }
- #l29> li:before {counter-increment: l2; content: counter(l2, lower-roman)") "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l29> li:first-child:before {counter-increment: l2 0;  }
- li {display: block; }
- #l30 {padding-left: 0pt;counter-reset: m1 3; }
- #l30> li:before {counter-increment: m1; content: counter(m1, lower-roman)") "; color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
- #l30> li:first-child:before {counter-increment: m1 0;  }
-</style></head><body><p class="s1" style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: center;">MODEL EXAMINATION  2023 - 24</p><h1 style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: center;">SOCIAL SCIENCE</h1><h2 style="padding-top: 2pt;padding-left: 5pt;text-indent: 0pt;text-align: center;"><a name="a0">CLASS X                                                                                                        </a><span class="h4">Time : 3 hrs.</span></h2><p class="s2" style="padding-top: 1pt;text-indent: 0pt;text-align: right;"><a name="a1">Mark : 80</a></p><p class="s2" style="padding-top: 6pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">General Instructions:</p><ol id="l1"><li style="padding-top: 6pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Question paper comprises five Sections - A, B, C, D and E. There are 37 questions in the question paper. All questions are compulsory.</p></li><li style="padding-top: 5pt;padding-left: 27pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section A - From question 1 to 20 are MCQs of 1 mark each.</p></li><li style="padding-top: 6pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section B - Question no. 21 to 24 are Very Short Answer Type Questions, carrying 2 marks each. Answer to each question should not exceed 40 words.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section C - contains Q. 25 to 29 are Short Answer Type Questions, carrying 3 marks each. Answer to each question should not exceed 60 words.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section D - Question no 30 to 33 are long answer type questions, carrying 5 marks each. Answer to each question should not exceed 120 words.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section E - Questions no from 34 to 36 are case based questions with three sub questions and are of 4 marks each.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">Section F - Question no. 37 is map based, carrying 5 marks with two parts, 37 a from History (2 marks) and 37b from Geography (3 marks).</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s3" style="display: inline;">There is no overall choice in the question paper. However, an internal choice has been provided in few questions. Only one of the choices in such questions have to be attempted.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 108%;text-align: left;"><p class="s3" style="display: inline;">In addition to this, separate instructions are given with each section and question, wherever necessary.</p></li></ol><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s2" style="padding-top: 3pt;padding-left: 98pt;text-indent: 0pt;text-align: left;"><a name="a2">SECTION - A (Multiple Choice Questions) 20 × 1 = 20</a></p><ol id="l2"><li style="padding-top: 7pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p style="display: inline;">Who was the Chief Minister and the Chief Architect of the movement for National Unification of Prussia? <b>1</b></p><ol id="l3"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Kaiser William I b) Otto von Bismark</p><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Hitler d) Gluseppe Mazzini</p></li></ol></li><li style="padding-top: 11pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p style="display: inline;">While baking a cake, the cocoa powder used by the baker is an example of which type of good? <b>1</b></p><ol id="l4"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Final good b) Service good</p><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Raw good d) Intermediate good</p></li></ol></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">What led to tensions between the Dutch-speaking and French-speaking communities?<b>1</b></p><ol id="l5"><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Both the communities demanded special powers.</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;line-height: 121%;text-align: left;"><p style="display: inline;">The minority French-speaking community was richer and more powerful than the majority Dutch speaking community.</p></li><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 120%;text-align: left;"><p style="display: inline;">The majority Dutch-speaking community was richer and more powerful than the minority French speaking community.</p></li><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 130%;text-align: left;"><p style="display: inline;">Both the communities were equal in socio-economic ladder and this was resented by the French speaking community.</p><p class="s4" style="padding-left: 1pt;text-indent: 0pt;line-height: 11pt;text-align: center;">1</p></li></ol></li><li style="padding-top: 2pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Which of the following information is correct regarding the figure given below? <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="text-indent: 0pt;text-align: left;"><span><img width="240" height="156" alt="image" src="Image_001.gif"/></span></p><ol id="l6"><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Slaves for sale</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">The Irish Potato Famine</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Merchants from Venice</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Goa Museum</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Identify the characteristics of Cavour among the following and choose the correct option.</p><p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">i) He was an Italian statesman ii) He spoke French much better than Italian</p><p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">iii) He was a tactful diplomat iv) He belonged to a Royal family <b>1</b></p><p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">a) Only i and ii are correct b) Only i, ii and iii are correct</p><p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Only ii, iii and iv are correct d) Only i, ii and iv are correct</p></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;line-height: 129%;text-align: left;"><p style="display: inline;">There are two statements marked as Assertion (A) and Reason (R). Mark your answer as per the codes provided below. <b>1</b></p><p style="padding-top: 5pt;padding-left: 116pt;text-indent: -87pt;line-height: 129%;text-align: left;">Assertion (A) : When the power is taken away from the Central and the State governments and given to local governments it is called decentralisation.</p><p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">Reason (R) : One-third seats are reserved for women in local government bodies.</p><ol id="l7"><li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Both A and R are correct and R is the correct explanation of A.</p></li><li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Both A and R are correct but R is not the correct explanation of A.</p></li><li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">A is correct but R is incorrect.</p></li><li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">A is incorrect but R is correct.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;line-height: 142%;text-align: left;"><p style="display: inline;">Identify the reason that is not true about the fact that caste alone cannot determine elections in India. <b>1</b></p><ol id="l8"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">No party wins the votes of all the voters of a caste or community.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 43pt;text-indent: -15pt;text-align: left;"><p style="display: inline;">Some political parties are known to favour some castes.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">No parliamentary constituency in the country has a clear majority of one single caste.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Political parties and candidates in elections make appeals to caste sentiments.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Who among the following recognises political parties in India? <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><ol id="l9"><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Election Commission b) President of India</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Speaker of the Lok Sabha d) Supreme Court</p></li></ol></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;"><a name="a3">Read the given statements and choose the correct option. 1</a></h3><p style="padding-top: 9pt;padding-left: 110pt;text-indent: -82pt;line-height: 129%;text-align: left;">Statement I : The name “silk routes” point to the importance of East-bound Chinese silk cargoes.</p><p style="padding-top: 2pt;padding-left: 110pt;text-indent: -82pt;line-height: 129%;text-align: left;">Statement II : Until the eighteenth century, China and India were among the world’s richest countries.</p><ol id="l10"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Both statements I and II are true. b) Both statements I and II are false.</p><p style="text-indent: 0pt;text-align: left;"><br/></p><ol id="l11"><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Statement I is true but statement II is false.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Statement II is true but statement I is false.</p></li></ol></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;"><p style="display: inline;">Why was reading of manuscripts not easy in India? Choose the appropriate reason from the following options. <b>1</b></p><ol id="l12"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Manuscripts were highly cheap</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Manuscripts were widely spread out</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Manuscripts were written in English and Hindi</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Manuscripts were fragile</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Dams, lakes and irrigation systems were built during the reign of .............. <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><ol id="l13"><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Asoka b) Chandragupta Maurya</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Akbar d) Iltumish</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Identify the sector to which A and B belong and choose the correct option. <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><table style="border-collapse:collapse;margin-left:40.7pt" cellspacing="0"><tr style="height:35pt"><td style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 1pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">Place of work</p></td><td style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 1pt;padding-left: 13pt;padding-right: 16pt;text-indent: 0pt;text-align: center;">Nature of</p><p class="s5" style="padding-top: 4pt;padding-left: 13pt;padding-right: 16pt;text-indent: 0pt;text-align: center;">employment</p></td><td style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 1pt;padding-left: 12pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">No. of working</p></td></tr><tr style="height:41pt"><td style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 7pt;padding-right: 19pt;text-indent: 0pt;line-height: 18pt;text-align: left;">Office, clinic in market place with formal license</p></td><td style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 7pt;padding-left: 42pt;text-indent: 0pt;text-align: left;">A</p></td><td style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 7pt;padding-left: 11pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">15</p></td></tr><tr style="height:44pt"><td style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 3pt;padding-left: 7pt;padding-right: 19pt;text-indent: 0pt;line-height: 18pt;text-align: left;">Working in small workshops usually not registered with the government</p></td><td style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 8pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">B</p></td><td style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 8pt;padding-left: 11pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">50</p></td></tr></table><ol id="l14"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">A - Unorganised, B - Organised b) A - Service sector, B - Secondary sector</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) A - Organised, B - Unorganised b) A - Secondary sector, B - Primary sector</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-bottom: 1pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;"><h3 style="display: inline;"><a name="a4">Read the following data and information carefully and select the most appropriate answer from the given options. 1</a></h3><table style="border-collapse:collapse;margin-left:31.3001pt" cellspacing="0"><tr style="height:22pt"><td style="width:437pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20" colspan="6"><p class="s6" style="padding-top: 3pt;padding-left: 108pt;text-indent: 0pt;text-align: left;">Table for Comparison of three countries</p></td></tr><tr style="height:29pt"><td style="width:88pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20" rowspan="2"><p class="s5" style="padding-top: 5pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">Countries</p></td><td style="width:349pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20" colspan="5"><p class="s5" style="padding-top: 5pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">Monthly income of citizens in 2007 (in Rupees)</p></td></tr><tr style="height:20pt"><td style="width:71pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-left: 2pt;text-indent: 0pt;line-height: 12pt;text-align: center;">I</p></td><td style="width:79pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-left: 24pt;padding-right: 31pt;text-indent: 0pt;line-height: 12pt;text-align: center;">II</p></td><td style="width:75pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-left: 18pt;padding-right: 20pt;text-indent: 0pt;line-height: 12pt;text-align: center;">III</p></td><td style="width:70pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-left: 30pt;padding-right: 25pt;text-indent: 0pt;line-height: 12pt;text-align: center;">IV</p></td><td style="width:54pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-left: 8pt;text-indent: 0pt;line-height: 12pt;text-align: center;">V</p></td></tr><tr style="height:22pt"><td style="width:88pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">Country A</p></td><td style="width:71pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">9500</p></td><td style="width:79pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 21pt;text-indent: 0pt;text-align: left;">10500</p></td><td style="width:75pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">9800</p></td><td style="width:70pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 22pt;text-indent: 0pt;text-align: left;">10000</p></td><td style="width:54pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 2pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">10200</p></td></tr><tr style="height:24pt"><td style="width:88pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">Country B</p></td><td style="width:71pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">500</p></td><td style="width:79pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 26pt;padding-right: 31pt;text-indent: 0pt;text-align: center;">500</p></td><td style="width:75pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">500</p></td><td style="width:70pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">500</p></td><td style="width:54pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">48000</p></td></tr><tr style="height:30pt"><td style="width:88pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">Country C</p></td><td style="width:71pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">5000</p></td><td style="width:79pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 24pt;text-indent: 0pt;text-align: left;">1000</p></td><td style="width:75pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">15000</p></td><td style="width:70pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 25pt;text-indent: 0pt;text-align: left;">4000</p></td><td style="width:54pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 4pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">25000</p></td></tr></table><p style="padding-top: 2pt;padding-left: 28pt;text-indent: 0pt;line-height: 136%;text-align: justify;">Rita is an employee of a multinational company who gets transferred to different countries after every three years of service. She has been given an opportunity to choose any one out of the three countries mentioned in the table above as her next job location. She calculates average income of all these countries as per the given data and chooses to be transferred to Country A. Identify the reason for which Rita has chosen country A.</p><ol id="l15"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Most of its citizens are rich and stable</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">It has most equitable distribution of income</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">National income of its citizens is higher</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Average income of its citizens is lower</p></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Primitive subsistence farming is also known as <b>1</b></p><ol id="l16"><li style="padding-top: 10pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Jhumming b) Terrace Farming</p><p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;text-align: justify;">c) Step Farming d) None of the above</p></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;"><p style="display: inline;">Which pollution is caused by the discharge of organic and inorganic industrial waste and affluents? <b>1</b></p><ol id="l17"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Air pollution b) Water pollution</p><p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;text-align: justify;">c) Noise pollution d) Thermal pollution</p></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;"><p style="display: inline;">Why is it that while there has been a change in the share of three sectors in GDP, a similar shift has not taken place in employment? <b>1</b></p><ol id="l18"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">It is because not enough jobs were created in the secondary and tertiary sectors.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">The secondary and tertiary sectors have to develop more.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">People in India are more attached to land and want to continue in agriculture.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">People are not interested in working in the secondary and tertiary sectors.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li></ol></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;"><a name="a5">Fill in the blanks choosing the correct options given below. 1</a></h3><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">Arrange the following in the sequence of most usable source of energy in India.</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">i) Coal ii) Solar energy</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">iii) Petroleum iv) Geothermal energy</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">a) i - iv - iii - ii b) i - iii - ii - iv c) i - ii - iii - iv d) i - iii ii - iv</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Which of the following is true about globalisation? <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><ol id="l19"><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Globalisation is purely an economic phenomenon.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Globalisation emerged only because of the availability of improved communications.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Globalisation is the same thing as westernisation.</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Globalisation is a multi-dimensional concept.</p></li></ol></li><li style="padding-top: 2pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;"><a name="a6">Read the features of a soil given below and name the related soil. 1</a></h3><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-top: 1pt;padding-left: 17pt;text-indent: 0pt;line-height: 180%;text-align: left;">These soils range from red to brown in colour Generally sandy in Texture and saline</p><p style="padding-left: 17pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Soil lacks humus and moisture</p><p style="padding-left: 52pt;text-indent: 0pt;text-align: left;"/><ol id="l20"><li style="padding-top: 2pt;padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">Alluvial soil b) Arid soil c) Laterite soil d) Regur soil</p><table style="border-collapse:collapse" cellspacing="0"><tr style="height:17pt"><td style="width:182pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 1pt;padding-left: 38pt;text-indent: 0pt;text-align: left;">Column A</p></td><td style="width:256pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p class="s5" style="padding-top: 1pt;padding-left: 51pt;text-indent: 0pt;text-align: left;">Column B</p></td></tr><tr style="height:133pt"><td style="width:182pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="text-indent: 0pt;text-align: left;"><br/></p></td><td style="width:256pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="text-indent: 0pt;text-align: left;"><br/></p></td></tr></table><ol id="l21"><li style="padding-top: 6pt;padding-left: 38pt;text-indent: -22pt;text-align: left;"><p class="s5" style="display: inline;">Transparency</p></li><li style="padding-top: 8pt;padding-left: 38pt;text-indent: -22pt;text-align: left;"><p class="s5" style="display: inline;">Democratic government</p></li><li style="padding-left: 38pt;text-indent: -22pt;text-align: left;"><p class="s5" style="display: inline;">Democracy</p></li><li style="padding-left: 38pt;text-indent: -22pt;text-align: left;"><p class="s5" style="display: inline;">Outcome of democracy</p></li></ol><ol id="l22"><li style="padding-top: 6pt;padding-left: 31pt;padding-right: 12pt;text-indent: -16pt;line-height: 136%;text-align: left;"><p class="s5" style="display: inline;">Accountable to the citizens, and responsive to the needs and expectations of the citizens</p></li><li style="padding-top: 5pt;padding-left: 31pt;text-indent: -16pt;text-align: left;"><p class="s5" style="display: inline;">Free and fair elections</p></li><li style="padding-left: 31pt;text-indent: -16pt;text-align: left;"><p class="s5" style="display: inline;">Legitimate government</p></li><li style="padding-left: 31pt;text-indent: -16pt;text-align: left;"><p class="s5" style="display: inline;">To examine the process of decision-making</p></li></ol><p style="text-indent: 0pt;text-align: left;"/></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;"><p style="display: inline;">Match the following items given in column A with those in column B. Choose the correct answer form the options given below. <b>1</b></p><p style="text-indent: 0pt;text-align: left;"><br/></p><ol id="l23"><li style="padding-left: 48pt;text-indent: -19pt;text-align: left;"><p style="display: inline;">a - iii, b - i c - iv, d - ii b) a - iv, b - iii, c - ii, d - i</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) a - ii, b - iv, c - iii, d - i a) a - iv, b - i, c - ii, d - iii</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s2" style="padding-left: 143pt;text-indent: 0pt;text-align: left;"><a name="a7">SECTION - B (Very Short Answer Questions) 4 × 2 = 8</a></p></li></ol></li><li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Why is one-party system not considered a good Party System for democratic principle? <span class="s8">2</span></p></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p class="s7" style="display: inline;">State any one step taken in Belgium to rule out the problem of regional differences and cultural diversities. <span class="s8">2</span></p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Why did Mahatma Gandhi decide to call of the Civil Disobedience Movement in 1931? <span class="s8">2</span></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Mention any two factors that make forests a very useful resource for humans. <span class="s8">2</span></p><p class="s2" style="padding-top: 8pt;padding-left: 160pt;text-indent: 0pt;text-align: left;"><a name="a8">SECTION - C (Short Answer Questions) 5 × 3 = 15</a></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Suggest any three measures to enhance the participation of woman in politics. <span class="s8">3</span></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p class="s7" style="display: inline;">“A public expression of dissatisfaction with democracy shows the success of democratic project:” Justify the statement. <span class="s8">3</span></p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Describe any three characteristics of ‘Odisha-Jharkhand belt’ of iron ore in India. <span class="s8">3</span></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Explain any three institutional reforms taken for the development of Indian agriculture. <span class="s8">3</span></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p style="display: inline;">Disguised unemployment does not help in productivity of a country, why? Explain with the help of an example. <span class="s8">3</span></p><p class="s2" style="padding-top: 5pt;padding-left: 160pt;text-indent: 0pt;text-align: left;"><a name="a9">SECTION - D (Long Answer Questions) 4 × 5 = 20</a></p></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">What is a Gram Sabha? Describe any four functions of a Gram Sabha. <span class="s8">5</span></p></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><p style="display: inline;">Is per capita income the true measure of development? Elaborate. <span class="s8">5</span></p><h3 style="padding-top: 2pt;padding-left: 230pt;text-indent: 0pt;text-align: left;"><a name="a10">OR</a></h3><p style="padding-top: 7pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">What is the basis for determining for developmental goals of different people? Give one example to prove that development for some may cause harm to others.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;"><p style="display: inline;">“The first clear expression of nationalism came with the ‘French Revolution’ in 1789’. Examine the statement. <span class="s8">5</span></p><p class="s8" style="padding-top: 4pt;padding-left: 230pt;text-indent: 0pt;text-align: left;">OR</p><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">How did the wave of economic nationalism strengthen the wider nationalist sentiment growing in Europe? Explain.</p></li><li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 121%;text-align: left;"><p style="display: inline;">“The Government of India has introduced various institutional and technological reforms to improve agriculture in the 1980s and 1990s”. Support this statement with examples.<span class="s8">5</span></p><h3 style="padding-top: 5pt;padding-left: 230pt;text-indent: 0pt;text-align: left;"><a name="a11">OR</a></h3><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">Describe any four reforms brought in the Indian agriculture after independence through the efforts of the Indian government.</p><p class="s2" style="padding-top: 5pt;padding-left: 197pt;text-indent: 0pt;text-align: left;"><a name="a12">SECTION - E (Case based questions) 3 × 4 = 12</a></p></li><li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;">Read the text given below and answer the questions that follows. <span class="s8">4</span></h3><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: left;">The idea of development or progress has always been with us. We have aspirations or desires about what we would like to do and how we would like to live,. Similarly, we have ideas about what a country should be like. What are the essential things that we require? Can life be better for all? How should people live together? Can there be more equality? Development involves thinking about these questions and about the ways in which we can work towards achieving these goals.</p><p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">In World Development Reports, brought out by the World Bank, this criterion is used in classifying countries. Countries with per capita income of US$ 12,056 per annum and above in 2017, are called rich countries and those with per capita income of US$ 955 or less are called low-income countries. India comes in the category of low middle income countries because its per capita income in 2017 was just US$ 1820 per annum.</p><p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">Groundwater is an example of renewable resources. These resources are replenished by nature as in the case of crops and plants. However, even these resources may be overused. For example, in the case of groundwater, if we use more than what is being replenished by rain then we would be overusing this resource.</p><ol id="l24"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">What do you mean by economic development?</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Why India comes in the category of low middle income countries?</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Why groundwater is the best example of renewable resources?</p></li></ol></li><li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;"><a name="a13">Read the extract and answer the questions that follows. </a><span class="s8">4</span></h3><p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;line-height: 136%;text-align: justify;">Electricity has such a wide range of applications in today’s world that, it’s per capita consumption is considered as an index of development. Electricity is generated mainly in two ways : by running water which drives hydro turbines to generate hydroelectricity; and</p><p style="padding-top: 2pt;padding-left: 28pt;text-indent: 0pt;line-height: 120%;text-align: justify;">by burning other fuels such as coal, petroleum and natural gas to drive turbines to produce thermal power. Once generated the electricity is exactly the same. Hydro electricity is generated by fast flowing water, which is a renewable resource. India has a number of multi-purpose projects like the Bhakra Nangal, Damodar Valley Corporation, the Kopili Hydel Project etc. producing hydroelectric power. Thermal electricity is generated by using coal, petroleum and natural gas. The thermal power stations use non-renewable fossil fuels for generating electricity.</p><ol id="l25"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">How does thermal power stations generate electricity?</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Why is hydroelectric called a renewable resources?</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">What are the two ways to generate electricity?</p></li></ol></li><li style="padding-top: 7pt;padding-left: 28pt;text-indent: -22pt;text-align: left;"><h3 style="display: inline;"><a name="a14">Read the given extract and answer following questions. </a><span class="s8">4</span></h3><p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 119%;text-align: justify;">The Independence Day Pledge, 26 January, 1930 ‘We believe that it is the inalienable right of the Indian people, as of any other people, to have freedom and to enjoy the fruits of their toil and have the necessities of life, so that they may have full opportunities of growth. We believe also that if any government deprives a people of these rights and oppresses them, the people have a further right to alter it or to abolish it. The British Government in India has not only deprived the Indian people of their freedom but has based itself on the exploitation of the masses, and has ruined India economically, politically, culturally and spiritually. We believe, therefore, that India must sever the British connection and attain Purna Swaraj or complete Independence.</p><ol id="l26"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Who was the president of the Lahore Session of Congress held in December 1929?</p><p style="text-indent: 0pt;text-align: left;"><br/></p></li><li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Why was Purna Swaraj considered essential by the people of India?</p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;"><p style="display: inline;">Explain the significance of the Lahore Session of Congress (1929).</p></li></ol><p class="s2" style="padding-top: 8pt;padding-left: 131pt;text-indent: 0pt;text-align: left;"><a name="a15">SECTION - E (Map skill based questions)</a></p></li><li style="padding-top: 8pt;padding-left: 48pt;text-indent: -42pt;line-height: 113%;text-align: left;"><p class="s7" style="display: inline;">a) Two places A and B have been marked on the given outline map of India. Identify them and write their correct names on the lines drawn near them. <span class="s8">5</span></p></li></ol><ol id="l27"><li style="padding-top: 6pt;padding-left: 70pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Indian National Congress session of 1927</p></li><li style="padding-top: 8pt;padding-left: 67pt;text-indent: -19pt;line-height: 119%;text-align: left;"><p class="s9" style="display: inline;">	<span class="s7">The place where on 4th February 1922, large group of protestors, clashed with police and set fire to a Police Station.</span></p></li></ol><ol id="l28"><li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 119%;text-align: left;"><p class="s7" style="display: inline;">On the same outline map of India locate and label any Three of the following with suitable symbols.</p><ol id="l29"><li style="padding-top: 5pt;padding-left: 70pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Kakrapara Nuclear Plant ii) Ballari Iron ore mine</p></li></ol></li></ol><ol id="l30"><li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">A Software Technology Park in Kerala</p></li><li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">An Airport in Kolkata which was earlier known as Dum Dum</p></li><li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;"><p class="s7" style="display: inline;">Mormagao Port</p></li></ol><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="text-indent: 0pt;text-align: left;"><span><img width="562" height="689" alt="image" src="Image_002.png"/></span></p><p class="s10" style="padding-top: 3pt;padding-left: 161pt;text-indent: 0pt;text-align: center;">ii</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s11" style="padding-top: 9pt;text-indent: 0pt;text-align: center;"><a name="a16">•</a></p><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s10" style="padding-top: 9pt;text-indent: 0pt;text-align: right;">i</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p class="s11" style="padding-top: 6pt;text-indent: 0pt;text-align: center;"><a name="a17">•</a></p></body></html>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SS -Model 5</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+
+        .s1 {
+            color: #231F20;
+            font-family: "Arial Black", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 14pt;
+        }
+
+        h1 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14pt;
+        }
+
+        h2 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        .h4 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        .s2 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        .s3 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        p {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+            margin: 0pt;
+        }
+
+        h3 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        .s4 {
+            color: #231F20;
+            font-family: "Bookman Old Style", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        .s5 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        .s6 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        .s7 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        .s8 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        .s9 {
+            color: black;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+        }
+
+        .s10 {
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        .s11 {
+            color: #231F20;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 27pt;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l1 {
+            padding-left: 0pt;
+            counter-reset: c1 1;
+        }
+
+        #l1>li:before {
+            counter-increment: c1;
+            content: counter(c1, decimal)". ";
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+
+        #l1>li:first-child:before {
+            counter-increment: c1 0;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l2 {
+            padding-left: 0pt;
+            counter-reset: d1 1;
+        }
+
+        #l2>li:before {
+            counter-increment: d1;
+            content: counter(d1, decimal)". ";
+            color: black;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+        }
+
+        #l2>li:first-child:before {
+            counter-increment: d1 0;
+        }
+
+        #l3 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l3>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l3>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l4 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l4>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l4>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l5 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l5>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l5>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l6 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l6>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l6>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l7 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l7>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l7>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l8 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l8>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l8>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l9 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l9>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l9>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l10 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l10>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l10>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l11 {
+            padding-left: 0pt;
+            counter-reset: e1 3;
+        }
+
+        #l11>li:before {
+            counter-increment: e1;
+            content: counter(e1, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l11>li:first-child:before {
+            counter-increment: e1 0;
+        }
+
+        #l12 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l12>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l12>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l13 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l13>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l13>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l14 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l14>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l14>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l15 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l15>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l15>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l16 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l16>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l16>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l17 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l17>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l17>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l18 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l18>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l18>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l19 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l19>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l19>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l20 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l20>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l20>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l21 {
+            padding-left: 0pt;
+            counter-reset: f1 1;
+        }
+
+        #l21>li:before {
+            counter-increment: f1;
+            content: counter(f1, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l21>li:first-child:before {
+            counter-increment: f1 0;
+        }
+
+        #l22 {
+            padding-left: 0pt;
+            counter-reset: g1 1;
+        }
+
+        #l22>li:before {
+            counter-increment: g1;
+            content: counter(g1, lower-roman)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l22>li:first-child:before {
+            counter-increment: g1 0;
+        }
+
+        #l23 {
+            padding-left: 0pt;
+            counter-reset: d2 1;
+        }
+
+        #l23>li:before {
+            counter-increment: d2;
+            content: counter(d2, lower-latin)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l23>li:first-child:before {
+            counter-increment: d2 0;
+        }
+
+        #l24 {
+            padding-left: 0pt;
+            counter-reset: h1 1;
+        }
+
+        #l24>li:before {
+            counter-increment: h1;
+            content: counter(h1, lower-roman)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l24>li:first-child:before {
+            counter-increment: h1 0;
+        }
+
+        #l25 {
+            padding-left: 0pt;
+            counter-reset: i1 1;
+        }
+
+        #l25>li:before {
+            counter-increment: i1;
+            content: counter(i1, lower-roman)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l25>li:first-child:before {
+            counter-increment: i1 0;
+        }
+
+        #l26 {
+            padding-left: 0pt;
+            counter-reset: j1 1;
+        }
+
+        #l26>li:before {
+            counter-increment: j1;
+            content: counter(j1, lower-roman)") ";
+            color: #231F20;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l26>li:first-child:before {
+            counter-increment: j1 0;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l27 {
+            padding-left: 0pt;
+            counter-reset: k1 1;
+        }
+
+        #l27>li:before {
+            counter-increment: k1;
+            content: counter(k1, upper-roman)") ";
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l27>li:first-child:before {
+            counter-increment: k1 0;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l28 {
+            padding-left: 0pt;
+            counter-reset: l1 2;
+        }
+
+        #l28>li:before {
+            counter-increment: l1;
+            content: counter(l1, lower-latin)") ";
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l28>li:first-child:before {
+            counter-increment: l1 0;
+        }
+
+        #l29 {
+            padding-left: 0pt;
+            counter-reset: l2 1;
+        }
+
+        #l29>li:before {
+            counter-increment: l2;
+            content: counter(l2, lower-roman)") ";
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l29>li:first-child:before {
+            counter-increment: l2 0;
+        }
+
+        li {
+            display: block;
+        }
+
+        #l30 {
+            padding-left: 0pt;
+            counter-reset: m1 3;
+        }
+
+        #l30>li:before {
+            counter-increment: m1;
+            content: counter(m1, lower-roman)") ";
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+
+        #l30>li:first-child:before {
+            counter-increment: m1 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="s1" style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: center;">MODEL EXAMINATION 2023
+        - 24</p>
+    <h1 style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: center;">SOCIAL SCIENCE</h1>
+    <h2 style="padding-top: 2pt;padding-left: 5pt;text-indent: 0pt;text-align: center;"><a name="a0">CLASS X </a><span
+            class="h4">Time : 3 hrs.</span></h2>
+    <p class="s2" style="padding-top: 1pt;text-indent: 0pt;text-align: right;"><a name="a1">Mark : 80</a></p>
+    <p class="s2" style="padding-top: 6pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">General Instructions:
+    </p>
+    <ol id="l1">
+        <li style="padding-top: 6pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Question paper comprises five Sections - A, B, C, D and E. There are
+                37 questions in the question paper. All questions are compulsory.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 27pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section A - From question 1 to 20 are MCQs of 1 mark each.</p>
+        </li>
+        <li style="padding-top: 6pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section B - Question no. 21 to 24 are Very Short Answer Type
+                Questions, carrying 2 marks each. Answer to each question should not exceed 40 words.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section C - contains Q. 25 to 29 are Short Answer Type Questions,
+                carrying 3 marks each. Answer to each question should not exceed 60 words.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section D - Question no 30 to 33 are long answer type questions,
+                carrying 5 marks each. Answer to each question should not exceed 120 words.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section E - Questions no from 34 to 36 are case based questions with
+                three sub questions and are of 4 marks each.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">Section F - Question no. 37 is map based, carrying 5 marks with two
+                parts, 37 a from History (2 marks) and 37b from Geography (3 marks).</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s3" style="display: inline;">There is no overall choice in the question paper. However, an
+                internal choice has been provided in few questions. Only one of the choices in such questions have to be
+                attempted.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 108%;text-align: left;">
+            <p class="s3" style="display: inline;">In addition to this, separate instructions are given with each
+                section and question, wherever necessary.</p>
+        </li>
+    </ol>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s2" style="padding-top: 3pt;padding-left: 98pt;text-indent: 0pt;text-align: left;"><a name="a2">SECTION -
+            A (Multiple Choice Questions) 20 × 1 = 20</a></p>
+    <ol id="l2">
+        <li style="padding-top: 7pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p style="display: inline;">Who was the Chief Minister and the Chief Architect of the movement for National
+                Unification of Prussia? <b>1</b></p>
+            <ol id="l3">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Kaiser William I b) Otto von Bismark</p>
+                    <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Hitler d)
+                        Gluseppe Mazzini</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 11pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p style="display: inline;">While baking a cake, the cocoa powder used by the baker is an example of which
+                type of good? <b>1</b></p>
+            <ol id="l4">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Final good b) Service good</p>
+                    <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Raw good d)
+                        Intermediate good</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">What led to tensions between the Dutch-speaking and French-speaking
+                communities?<b>1</b></p>
+            <ol id="l5">
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Both the communities demanded special powers.</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;line-height: 121%;text-align: left;">
+                    <p style="display: inline;">The minority French-speaking community was richer and more powerful than
+                        the majority Dutch speaking community.</p>
+                </li>
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 120%;text-align: left;">
+                    <p style="display: inline;">The majority Dutch-speaking community was richer and more powerful than
+                        the minority French speaking community.</p>
+                </li>
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 130%;text-align: left;">
+                    <p style="display: inline;">Both the communities were equal in socio-economic ladder and this was
+                        resented by the French speaking community.</p>
+                    <p class="s4" style="padding-left: 1pt;text-indent: 0pt;line-height: 11pt;text-align: center;">1</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 2pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Which of the following information is correct regarding the figure given below?
+                <b>1</b>
+            </p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="text-indent: 0pt;text-align: left;"><span><img width="240" height="156" alt="image"
+                        src="Image_001.gif" /></span></p>
+            <ol id="l6">
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Slaves for sale</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">The Irish Potato Famine</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Merchants from Venice</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Goa Museum</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Identify the characteristics of Cavour among the following and choose the
+                correct option.</p>
+            <p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">i) He was an Italian
+                statesman ii) He spoke French much better than Italian</p>
+            <p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">iii) He was a tactful
+                diplomat iv) He belonged to a Royal family <b>1</b></p>
+            <p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">a) Only i and ii are
+                correct b) Only i, ii and iii are correct</p>
+            <p style="padding-top: 9pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Only ii, iii and iv are
+                correct d) Only i, ii and iv are correct</p>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;line-height: 129%;text-align: left;">
+            <p style="display: inline;">There are two statements marked as Assertion (A) and Reason (R). Mark your
+                answer as per the codes provided below. <b>1</b></p>
+            <p style="padding-top: 5pt;padding-left: 116pt;text-indent: -87pt;line-height: 129%;text-align: left;">
+                Assertion (A) : When the power is taken away from the Central and the State governments and given to
+                local governments it is called decentralisation.</p>
+            <p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">Reason (R) : One-third
+                seats are reserved for women in local government bodies.</p>
+            <ol id="l7">
+                <li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Both A and R are correct and R is the correct explanation of A.</p>
+                </li>
+                <li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Both A and R are correct but R is not the correct explanation of A.</p>
+                </li>
+                <li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">A is correct but R is incorrect.</p>
+                </li>
+                <li style="padding-top: 9pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">A is incorrect but R is correct.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;line-height: 142%;text-align: left;">
+            <p style="display: inline;">Identify the reason that is not true about the fact that caste alone cannot
+                determine elections in India. <b>1</b></p>
+            <ol id="l8">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">No party wins the votes of all the voters of a caste or community.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 43pt;text-indent: -15pt;text-align: left;">
+                    <p style="display: inline;">Some political parties are known to favour some castes.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">No parliamentary constituency in the country has a clear majority of one
+                        single caste.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Political parties and candidates in elections make appeals to caste
+                        sentiments.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Who among the following recognises political parties in India? <b>1</b></p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <ol id="l9">
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Election Commission b) President of India</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Speaker of the Lok Sabha d)
+                        Supreme Court</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;"><a name="a3">Read the given statements and choose the correct option. 1</a>
+            </h3>
+            <p style="padding-top: 9pt;padding-left: 110pt;text-indent: -82pt;line-height: 129%;text-align: left;">
+                Statement I : The name “silk routes” point to the importance of East-bound Chinese silk cargoes.</p>
+            <p style="padding-top: 2pt;padding-left: 110pt;text-indent: -82pt;line-height: 129%;text-align: left;">
+                Statement II : Until the eighteenth century, China and India were among the world’s richest countries.
+            </p>
+            <ol id="l10">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Both statements I and II are true. b) Both statements I and II are
+                        false.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <ol id="l11">
+                        <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                            <p style="display: inline;">Statement I is true but statement II is false.</p>
+                            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                        </li>
+                        <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                            <p style="display: inline;">Statement II is true but statement I is false.</p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;">
+            <p style="display: inline;">Why was reading of manuscripts not easy in India? Choose the appropriate reason
+                from the following options. <b>1</b></p>
+            <ol id="l12">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Manuscripts were highly cheap</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Manuscripts were widely spread out</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Manuscripts were written in English and Hindi</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Manuscripts were fragile</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Dams, lakes and irrigation systems were built during the reign of ..............
+                <b>1</b>
+            </p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <ol id="l13">
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Asoka b) Chandragupta Maurya</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) Akbar d) Iltumish</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Identify the sector to which A and B belong and choose the correct option.
+                <b>1</b>
+            </p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <table style="border-collapse:collapse;margin-left:40.7pt" cellspacing="0">
+                <tr style="height:35pt">
+                    <td
+                        style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 1pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">
+                            Place of work</p>
+                    </td>
+                    <td
+                        style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 1pt;padding-left: 13pt;padding-right: 16pt;text-indent: 0pt;text-align: center;">
+                            Nature of</p>
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 13pt;padding-right: 16pt;text-indent: 0pt;text-align: center;">
+                            employment</p>
+                    </td>
+                    <td
+                        style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 1pt;padding-left: 12pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">
+                            No. of working</p>
+                    </td>
+                </tr>
+                <tr style="height:41pt">
+                    <td
+                        style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 2pt;padding-left: 7pt;padding-right: 19pt;text-indent: 0pt;line-height: 18pt;text-align: left;">
+                            Office, clinic in market place with formal license</p>
+                    </td>
+                    <td
+                        style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 7pt;padding-left: 42pt;text-indent: 0pt;text-align: left;">A
+                        </p>
+                    </td>
+                    <td
+                        style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 7pt;padding-left: 11pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">
+                            15</p>
+                    </td>
+                </tr>
+                <tr style="height:44pt">
+                    <td
+                        style="width:210pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 3pt;padding-left: 7pt;padding-right: 19pt;text-indent: 0pt;line-height: 18pt;text-align: left;">
+                            Working in small workshops usually not registered with the government</p>
+                    </td>
+                    <td
+                        style="width:96pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 8pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">B
+                        </p>
+                    </td>
+                    <td
+                        style="width:93pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 8pt;padding-left: 11pt;padding-right: 4pt;text-indent: 0pt;text-align: center;">
+                            50</p>
+                    </td>
+                </tr>
+            </table>
+            <ol id="l14">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">A - Unorganised, B - Organised b) A - Service sector, B - Secondary
+                        sector</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) A - Organised, B - Unorganised
+                        b) A - Secondary sector, B - Primary sector</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-bottom: 1pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;">
+            <h3 style="display: inline;"><a name="a4">Read the following data and information carefully and select the
+                    most appropriate answer from the given options. 1</a></h3>
+            <table style="border-collapse:collapse;margin-left:31.3001pt" cellspacing="0">
+                <tr style="height:22pt">
+                    <td style="width:437pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"
+                        colspan="6">
+                        <p class="s6" style="padding-top: 3pt;padding-left: 108pt;text-indent: 0pt;text-align: left;">
+                            Table for Comparison of three countries</p>
+                    </td>
+                </tr>
+                <tr style="height:29pt">
+                    <td style="width:88pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"
+                        rowspan="2">
+                        <p class="s5" style="padding-top: 5pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">
+                            Countries</p>
+                    </td>
+                    <td style="width:349pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20"
+                        colspan="5">
+                        <p class="s5" style="padding-top: 5pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">
+                            Monthly income of citizens in 2007 (in Rupees)</p>
+                    </td>
+                </tr>
+                <tr style="height:20pt">
+                    <td
+                        style="width:71pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-left: 2pt;text-indent: 0pt;line-height: 12pt;text-align: center;">I
+                        </p>
+                    </td>
+                    <td
+                        style="width:79pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-left: 24pt;padding-right: 31pt;text-indent: 0pt;line-height: 12pt;text-align: center;">
+                            II</p>
+                    </td>
+                    <td
+                        style="width:75pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-left: 18pt;padding-right: 20pt;text-indent: 0pt;line-height: 12pt;text-align: center;">
+                            III</p>
+                    </td>
+                    <td
+                        style="width:70pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-left: 30pt;padding-right: 25pt;text-indent: 0pt;line-height: 12pt;text-align: center;">
+                            IV</p>
+                    </td>
+                    <td
+                        style="width:54pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-left: 8pt;text-indent: 0pt;line-height: 12pt;text-align: center;">V
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height:22pt">
+                    <td
+                        style="width:88pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 2pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">
+                            Country A</p>
+                    </td>
+                    <td
+                        style="width:71pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 2pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            9500</p>
+                    </td>
+                    <td
+                        style="width:79pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 2pt;padding-left: 21pt;text-indent: 0pt;text-align: left;">
+                            10500</p>
+                    </td>
+                    <td
+                        style="width:75pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 2pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            9800</p>
+                    </td>
+                    <td
+                        style="width:70pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 2pt;padding-left: 22pt;text-indent: 0pt;text-align: left;">
+                            10000</p>
+                    </td>
+                    <td
+                        style="width:54pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 2pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">
+                            10200</p>
+                    </td>
+                </tr>
+                <tr style="height:24pt">
+                    <td
+                        style="width:88pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 4pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">
+                            Country B</p>
+                    </td>
+                    <td
+                        style="width:71pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            500</p>
+                    </td>
+                    <td
+                        style="width:79pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 26pt;padding-right: 31pt;text-indent: 0pt;text-align: center;">
+                            500</p>
+                    </td>
+                    <td
+                        style="width:75pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            500</p>
+                    </td>
+                    <td
+                        style="width:70pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;text-align: left;">500
+                        </p>
+                    </td>
+                    <td
+                        style="width:54pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">
+                            48000</p>
+                    </td>
+                </tr>
+                <tr style="height:30pt">
+                    <td
+                        style="width:88pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 4pt;padding-left: 16pt;text-indent: 0pt;text-align: left;">
+                            Country C</p>
+                    </td>
+                    <td
+                        style="width:71pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 21pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            5000</p>
+                    </td>
+                    <td
+                        style="width:79pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 4pt;padding-left: 24pt;text-indent: 0pt;text-align: left;">
+                            1000</p>
+                    </td>
+                    <td
+                        style="width:75pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 19pt;padding-right: 20pt;text-indent: 0pt;text-align: center;">
+                            15000</p>
+                    </td>
+                    <td
+                        style="width:70pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5" style="padding-top: 4pt;padding-left: 25pt;text-indent: 0pt;text-align: left;">
+                            4000</p>
+                    </td>
+                    <td
+                        style="width:54pt;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                        <p class="s5"
+                            style="padding-top: 4pt;padding-left: 12pt;padding-right: 6pt;text-indent: 0pt;text-align: center;">
+                            25000</p>
+                    </td>
+                </tr>
+            </table>
+            <p style="padding-top: 2pt;padding-left: 28pt;text-indent: 0pt;line-height: 136%;text-align: justify;">Rita
+                is an employee of a multinational company who gets transferred to different countries after every three
+                years of service. She has been given an opportunity to choose any one out of the three countries
+                mentioned in the table above as her next job location. She calculates average income of all these
+                countries as per the given data and chooses to be transferred to Country A. Identify the reason for
+                which Rita has chosen country A.</p>
+            <ol id="l15">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Most of its citizens are rich and stable</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">It has most equitable distribution of income</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">National income of its citizens is higher</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Average income of its citizens is lower</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Primitive subsistence farming is also known as <b>1</b></p>
+            <ol id="l16">
+                <li style="padding-top: 10pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Jhumming b) Terrace Farming</p>
+                    <p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;text-align: justify;">c) Step
+                        Farming d) None of the above</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;">
+            <p style="display: inline;">Which pollution is caused by the discharge of organic and inorganic industrial
+                waste and affluents? <b>1</b></p>
+            <ol id="l17">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Air pollution b) Water pollution</p>
+                    <p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;text-align: justify;">c) Noise
+                        pollution d) Thermal pollution</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;">
+            <p style="display: inline;">Why is it that while there has been a change in the share of three sectors in
+                GDP, a similar shift has not taken place in employment? <b>1</b></p>
+            <ol id="l18">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">It is because not enough jobs were created in the secondary and tertiary
+                        sectors.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">The secondary and tertiary sectors have to develop more.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">People in India are more attached to land and want to continue in
+                        agriculture.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">People are not interested in working in the secondary and tertiary
+                        sectors.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;"><a name="a5">Fill in the blanks choosing the correct options given below. 1</a>
+            </h3>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">Arrange the following in the sequence of
+                most usable source of energy in India.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">i) Coal ii) Solar energy</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">iii) Petroleum iv) Geothermal energy</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-left: 28pt;text-indent: 0pt;text-align: justify;">a) i - iv - iii - ii b) i - iii - ii -
+                iv c) i - ii - iii - iv d) i - iii ii - iv</p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+        </li>
+        <li style="padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Which of the following is true about globalisation? <b>1</b></p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <ol id="l19">
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Globalisation is purely an economic phenomenon.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Globalisation emerged only because of the availability of improved
+                        communications.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Globalisation is the same thing as westernisation.</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Globalisation is a multi-dimensional concept.</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 2pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;"><a name="a6">Read the features of a soil given below and name the related soil.
+                    1</a></h3>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <p style="padding-top: 1pt;padding-left: 17pt;text-indent: 0pt;line-height: 180%;text-align: left;">These
+                soils range from red to brown in colour Generally sandy in Texture and saline</p>
+            <p style="padding-left: 17pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Soil lacks humus and
+                moisture</p>
+            <p style="padding-left: 52pt;text-indent: 0pt;text-align: left;" />
+            <ol id="l20">
+                <li style="padding-top: 2pt;padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">Alluvial soil b) Arid soil c) Laterite soil d) Regur soil</p>
+                    <table style="border-collapse:collapse" cellspacing="0">
+                        <tr style="height:17pt">
+                            <td
+                                style="width:182pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                                <p class="s5"
+                                    style="padding-top: 1pt;padding-left: 38pt;text-indent: 0pt;text-align: left;">
+                                    Column A</p>
+                            </td>
+                            <td
+                                style="width:256pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                                <p class="s5"
+                                    style="padding-top: 1pt;padding-left: 51pt;text-indent: 0pt;text-align: left;">
+                                    Column B</p>
+                            </td>
+                        </tr>
+                        <tr style="height:133pt">
+                            <td
+                                style="width:182pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                            </td>
+                            <td
+                                style="width:256pt;border-top-style:solid;border-top-width:1pt;border-top-color:#231F20;border-left-style:solid;border-left-width:1pt;border-left-color:#231F20;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#231F20;border-right-style:solid;border-right-width:1pt;border-right-color:#231F20">
+                                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <ol id="l21">
+                        <li style="padding-top: 6pt;padding-left: 38pt;text-indent: -22pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Transparency</p>
+                        </li>
+                        <li style="padding-top: 8pt;padding-left: 38pt;text-indent: -22pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Democratic government</p>
+                        </li>
+                        <li style="padding-left: 38pt;text-indent: -22pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Democracy</p>
+                        </li>
+                        <li style="padding-left: 38pt;text-indent: -22pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Outcome of democracy</p>
+                        </li>
+                    </ol>
+                    <ol id="l22">
+                        <li
+                            style="padding-top: 6pt;padding-left: 31pt;padding-right: 12pt;text-indent: -16pt;line-height: 136%;text-align: left;">
+                            <p class="s5" style="display: inline;">Accountable to the citizens, and responsive to the
+                                needs and expectations of the citizens</p>
+                        </li>
+                        <li style="padding-top: 5pt;padding-left: 31pt;text-indent: -16pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Free and fair elections</p>
+                        </li>
+                        <li style="padding-left: 31pt;text-indent: -16pt;text-align: left;">
+                            <p class="s5" style="display: inline;">Legitimate government</p>
+                        </li>
+                        <li style="padding-left: 31pt;text-indent: -16pt;text-align: left;">
+                            <p class="s5" style="display: inline;">To examine the process of decision-making</p>
+                        </li>
+                    </ol>
+                    <p style="text-indent: 0pt;text-align: left;" />
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;line-height: 136%;text-align: left;">
+            <p style="display: inline;">Match the following items given in column A with those in column B. Choose the
+                correct answer form the options given below. <b>1</b></p>
+            <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            <ol id="l23">
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: left;">
+                    <p style="display: inline;">a - iii, b - i c - iv, d - ii b) a - iv, b - iii, c - ii, d - i</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <p style="padding-left: 28pt;text-indent: 0pt;text-align: left;">c) a - ii, b - iv, c - iii, d - i
+                        a) a - iv, b - i, c - ii, d - iii</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                    <p class="s2" style="padding-left: 143pt;text-indent: 0pt;text-align: left;"><a name="a7">SECTION -
+                            B (Very Short Answer Questions) 4 × 2 = 8</a></p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 10pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Why is one-party system not considered a good Party System for
+                democratic principle? <span class="s8">2</span></p>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p class="s7" style="display: inline;">State any one step taken in Belgium to rule out the problem of
+                regional differences and cultural diversities. <span class="s8">2</span></p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Why did Mahatma Gandhi decide to call of the Civil Disobedience
+                Movement in 1931? <span class="s8">2</span></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Mention any two factors that make forests a very useful resource for
+                humans. <span class="s8">2</span></p>
+            <p class="s2" style="padding-top: 8pt;padding-left: 160pt;text-indent: 0pt;text-align: left;"><a
+                    name="a8">SECTION - C (Short Answer Questions) 5 × 3 = 15</a></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Suggest any three measures to enhance the participation of woman in
+                politics. <span class="s8">3</span></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p class="s7" style="display: inline;">“A public expression of dissatisfaction with democracy shows the
+                success of democratic project:” Justify the statement. <span class="s8">3</span></p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Describe any three characteristics of ‘Odisha-Jharkhand belt’ of iron ore in
+                India. <span class="s8">3</span></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Explain any three institutional reforms taken for the development of Indian
+                agriculture. <span class="s8">3</span></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p style="display: inline;">Disguised unemployment does not help in productivity of a country, why? Explain
+                with the help of an example. <span class="s8">3</span></p>
+            <p class="s2" style="padding-top: 5pt;padding-left: 160pt;text-indent: 0pt;text-align: left;"><a
+                    name="a9">SECTION - D (Long Answer Questions) 4 × 5 = 20</a></p>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">What is a Gram Sabha? Describe any four functions of a Gram Sabha. <span
+                    class="s8">5</span></p>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <p style="display: inline;">Is per capita income the true measure of development? Elaborate. <span
+                    class="s8">5</span></p>
+            <h3 style="padding-top: 2pt;padding-left: 230pt;text-indent: 0pt;text-align: left;"><a name="a10">OR</a>
+            </h3>
+            <p style="padding-top: 7pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">What
+                is the basis for determining for developmental goals of different people? Give one example to prove that
+                development for some may cause harm to others.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 120%;text-align: left;">
+            <p style="display: inline;">“The first clear expression of nationalism came with the ‘French Revolution’ in
+                1789’. Examine the statement. <span class="s8">5</span></p>
+            <p class="s8" style="padding-top: 4pt;padding-left: 230pt;text-indent: 0pt;text-align: left;">OR</p>
+            <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">How
+                did the wave of economic nationalism strengthen the wider nationalist sentiment growing in Europe?
+                Explain.</p>
+        </li>
+        <li style="padding-top: 5pt;padding-left: 28pt;text-indent: -22pt;line-height: 121%;text-align: left;">
+            <p style="display: inline;">“The Government of India has introduced various institutional and technological
+                reforms to improve agriculture in the 1980s and 1990s”. Support this statement with examples.<span
+                    class="s8">5</span></p>
+            <h3 style="padding-top: 5pt;padding-left: 230pt;text-indent: 0pt;text-align: left;"><a name="a11">OR</a>
+            </h3>
+            <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">
+                Describe any four reforms brought in the Indian agriculture after independence through the efforts of
+                the Indian government.</p>
+            <p class="s2" style="padding-top: 5pt;padding-left: 197pt;text-indent: 0pt;text-align: left;"><a
+                    name="a12">SECTION - E (Case based questions) 3 × 4 = 12</a></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;">Read the text given below and answer the questions that follows. <span
+                    class="s8">4</span></h3>
+            <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: left;">The idea
+                of development or progress has always been with us. We have aspirations or desires about what we would
+                like to do and how we would like to live,. Similarly, we have ideas about what a country should be like.
+                What are the essential things that we require? Can life be better for all? How should people live
+                together? Can there be more equality? Development involves thinking about these questions and about the
+                ways in which we can work towards achieving these goals.</p>
+            <p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">In
+                World Development Reports, brought out by the World Bank, this criterion is used in classifying
+                countries. Countries with per capita income of US$ 12,056 per annum and above in 2017, are called rich
+                countries and those with per capita income of US$ 955 or less are called low-income countries. India
+                comes in the category of low middle income countries because its per capita income in 2017 was just US$
+                1820 per annum.</p>
+            <p style="padding-top: 5pt;padding-left: 28pt;text-indent: 0pt;line-height: 124%;text-align: justify;">
+                Groundwater is an example of renewable resources. These resources are replenished by nature as in the
+                case of crops and plants. However, even these resources may be overused. For example, in the case of
+                groundwater, if we use more than what is being replenished by rain then we would be overusing this
+                resource.</p>
+            <ol id="l24">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">What do you mean by economic development?</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Why India comes in the category of low middle income countries?</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Why groundwater is the best example of renewable resources?</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 9pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;"><a name="a13">Read the extract and answer the questions that follows. </a><span
+                    class="s8">4</span></h3>
+            <p style="padding-top: 10pt;padding-left: 28pt;text-indent: 0pt;line-height: 136%;text-align: justify;">
+                Electricity has such a wide range of applications in today’s world that, it’s per capita consumption is
+                considered as an index of development. Electricity is generated mainly in two ways : by running water
+                which drives hydro turbines to generate hydroelectricity; and</p>
+            <p style="padding-top: 2pt;padding-left: 28pt;text-indent: 0pt;line-height: 120%;text-align: justify;">by
+                burning other fuels such as coal, petroleum and natural gas to drive turbines to produce thermal power.
+                Once generated the electricity is exactly the same. Hydro electricity is generated by fast flowing
+                water, which is a renewable resource. India has a number of multi-purpose projects like the Bhakra
+                Nangal, Damodar Valley Corporation, the Kopili Hydel Project etc. producing hydroelectric power. Thermal
+                electricity is generated by using coal, petroleum and natural gas. The thermal power stations use
+                non-renewable fossil fuels for generating electricity.</p>
+            <ol id="l25">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">How does thermal power stations generate electricity?</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Why is hydroelectric called a renewable resources?</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">What are the two ways to generate electricity?</p>
+                </li>
+            </ol>
+        </li>
+        <li style="padding-top: 7pt;padding-left: 28pt;text-indent: -22pt;text-align: left;">
+            <h3 style="display: inline;"><a name="a14">Read the given extract and answer following questions. </a><span
+                    class="s8">4</span></h3>
+            <p style="padding-top: 8pt;padding-left: 28pt;text-indent: 0pt;line-height: 119%;text-align: justify;">The
+                Independence Day Pledge, 26 January, 1930 ‘We believe that it is the inalienable right of the Indian
+                people, as of any other people, to have freedom and to enjoy the fruits of their toil and have the
+                necessities of life, so that they may have full opportunities of growth. We believe also that if any
+                government deprives a people of these rights and oppresses them, the people have a further right to
+                alter it or to abolish it. The British Government in India has not only deprived the Indian people of
+                their freedom but has based itself on the exploitation of the masses, and has ruined India economically,
+                politically, culturally and spiritually. We believe, therefore, that India must sever the British
+                connection and attain Purna Swaraj or complete Independence.</p>
+            <ol id="l26">
+                <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Who was the president of the Lahore Session of Congress held in December
+                        1929?</p>
+                    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                </li>
+                <li style="padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Why was Purna Swaraj considered essential by the people of India?</p>
+                </li>
+                <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -19pt;text-align: justify;">
+                    <p style="display: inline;">Explain the significance of the Lahore Session of Congress (1929).</p>
+                </li>
+            </ol>
+            <p class="s2" style="padding-top: 8pt;padding-left: 131pt;text-indent: 0pt;text-align: left;"><a
+                    name="a15">SECTION - E (Map skill based questions)</a></p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 48pt;text-indent: -42pt;line-height: 113%;text-align: left;">
+            <p class="s7" style="display: inline;">a) Two places A and B have been marked on the given outline map of
+                India. Identify them and write their correct names on the lines drawn near them. <span
+                    class="s8">5</span></p>
+        </li>
+    </ol>
+    <ol id="l27">
+        <li style="padding-top: 6pt;padding-left: 70pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Indian National Congress session of 1927</p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 67pt;text-indent: -19pt;line-height: 119%;text-align: left;">
+            <p class="s9" style="display: inline;"> <span class="s7">The place where on 4th February 1922, large group
+                    of protestors, clashed with police and set fire to a Police Station.</span></p>
+        </li>
+    </ol>
+    <ol id="l28">
+        <li style="padding-top: 5pt;padding-left: 48pt;text-indent: -19pt;line-height: 119%;text-align: left;">
+            <p class="s7" style="display: inline;">On the same outline map of India locate and label any Three of the
+                following with suitable symbols.</p>
+            <ol id="l29">
+                <li style="padding-top: 5pt;padding-left: 70pt;text-indent: -22pt;text-align: left;">
+                    <p class="s7" style="display: inline;">Kakrapara Nuclear Plant ii) Ballari Iron ore mine</p>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <ol id="l30">
+        <li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">A Software Technology Park in Kerala</p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">An Airport in Kolkata which was earlier known as Dum Dum</p>
+        </li>
+        <li style="padding-top: 8pt;padding-left: 70pt;text-indent: -22pt;text-align: left;">
+            <p class="s7" style="display: inline;">Mormagao Port</p>
+        </li>
+    </ol>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p style="text-indent: 0pt;text-align: left;"><span><img width="562" height="689" alt="image"
+                src="Image_002.png" /></span></p>
+    <p class="s10" style="padding-top: 3pt;padding-left: 161pt;text-indent: 0pt;text-align: center;">ii</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s11" style="padding-top: 9pt;text-indent: 0pt;text-align: center;"><a name="a16">•</a></p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s10" style="padding-top: 9pt;text-indent: 0pt;text-align: right;">i</p>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <p class="s11" style="padding-top: 6pt;text-indent: 0pt;text-align: center;"><a name="a17">•</a></p>
+</body>
+
+</html>
