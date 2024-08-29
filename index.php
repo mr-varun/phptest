@@ -7,8 +7,8 @@
     <title>SS-10-5.pmd</title>
 </head>
 <frameset cols="310pt,*" rows="95%">
-    <frame src="SS -Model 5/headings.htm" name="headings" />
-    <frame src="SS -Model 5/content.htm" name="content" />
+    <frame src="SS -Model 5/headings.php" name="headings" />
+    <frame src="SS -Model 5/content.php" name="content" />
 </frameset>
 
 </html>
